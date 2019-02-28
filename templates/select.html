@@ -1,0 +1,15 @@
+<center>
+<h2>{{details[0]}} information</h2>
+<form action="/update" method="post">
+USERNAME:<input type="text" name="uname"value="{{details[0]}}"><br><br>
+PASSWORD:<input type="password" name="pwd"value="{{details[1]}}"><br><br>
+confirmPassword:<input type="text" name="cpwd"value="{{details[2]}}"><br><br>
+Email:<input type="text" name="email"value="{{details[3]}}"><br><br>
+FIRSTNAME:<input type="text" name="fname"value="{{details[4]}}"><br><br>
+LASTNAME:<input type="text" name="lname"value="{{details[5]}}"><br><br>
+GENDER:<input type="text" name="gender"value="{{details[6]}}"><br><br>
+MOBILE-NO:<input type="text" name="phno"value="{{details[7]}}"><br><br>
+ADDRESS:<textarea rows='4' name="addr"value="{{details[8]}}"></textarea>
+<input type="submit" value="update">
+</form>
+</center>
